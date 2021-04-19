@@ -1,0 +1,55 @@
+div {
+  width: 100px;
+  height: 100px;
+}
+#somDiv {
+  border-radius: 20px;
+  background: saddlebrown;
+}
+#somDiv1 {
+  border-radius: 20px 20px 0px 0px;
+  background-color: seagreen;
+}
+#somDiv2 {
+  box-shadow: 5px 5px 6px rgb(0.3);
+  background-color: aqua;
+}
+#somDiv3 {
+  background-color: cadetblue;
+  transition: all 0.5 ease-in;
+}
+#somDiv4 {
+  background-color: navajowhite;
+  transform: rotate(5deg) scale(0.5) skew(1deg) translate(0px);
+}
+#somDiv5 {
+  background-color: #663333;
+}
+#somDiv6 {
+  background-color: #BADA55;
+  background-image: -webkit-linear-gradient(top, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.2));
+  background-image: -moz-linear-gradient(top, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.2));
+  background-image: -o-linear-gradient(top, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.2));
+  background-image: -ms-linear-gradient(top, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.2));
+  background-image: linear-gradient(top, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.2));
+}
+#somDiv7 {
+  -webkit-box-reflect: below 0px -webkit-gradient(linear, left top, left bottom, from(transparent), color-stop(20%, transparent), to(rgba(255, 255, 255, 0.2)));
+  background-image: url(http://static.oschina.net/uploads/img/201203/28104255_Feqm.jpg);
+}
+.one {
+  color: #663333;
+}
+.two {
+  color: #336666;
+}
+.three {
+  color: #2b5555;
+}
+.four {
+  color: #994d4d;
+}
+.five {
+  color: #bb7777;
+}
+/*# sourceMappingURL=less1.css.map */
